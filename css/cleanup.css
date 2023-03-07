@@ -1,1 +1,29 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall>.tag-1 {
+  display: none;
+}
+
+#wall>div#tag-2 {
+  display: none;
+}
+
+#wall .tag-1+#tag-2 {
+  display: none;
+}
+
+div#wall #tag-3.slick[id="tag-3"] {
+  display: none;
+}
+
+
+#wall #tag-2+#tag-3.slick {
+  display: none;
+}
+
+div#wall div#tag-5,[class="slick"] {
+  display: none;
+}
